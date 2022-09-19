@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "calima-solutions/filament-pagebuilder",
+    "description": "Filament PHP page builder form component built with GrapesJS",
     "keywords": [
-        ":vendor_name",
+        "calima-solutions",
         "laravel",
-        ":package_slug"
+        "filament-pagebuilder"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/calima-solutions/filament-pagebuilder",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Calima Solutions",
+            "email": "raul@calimasolutions.com",
             "role": "Developer"
         }
     ],
@@ -38,13 +38,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Calima\\FilamentPageBuilder\\": "src",
+            "Calima\\FilamentPageBuilder\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Calima\\FilamentPageBuilder\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -67,10 +67,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Calima\\FilamentPageBuilder\\FilamentPageBuilderServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "FilamentPageBuilder": "Calima\\FilamentPageBuilder\\Facades\\FilamentPageBuilder"
             }
         }
     },
